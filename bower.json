@@ -1,0 +1,20 @@
+{
+  "name": "special-computing-machine",
+  "homepage": "https://github.com/Serrano0811/special-computing-machine",
+  "authors": [
+    "Serrano0811 <antonio.serrano0811@gmail.com>"
+  ],
+  "description": "A simple tut on how to use web components",
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.7.0"
+  }
+}
