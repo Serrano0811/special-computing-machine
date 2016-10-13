@@ -4,15 +4,20 @@
 		<!-- 1. Load platform support before any code that touches de DOM. -->
 		<script src="/bower_components/webcomponentsjs/webcomponents.js"></script>
 
+		<!-- BOOTSTRAP MaxCDN -->
 		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
+		<!-- The relation its gonna be always an "import" for custom elements -->
 		<link rel="import" href="/elements/hello-world.html">
 	</head>
 	<body>
 		<div class="container">
+			<h1>This IS a web-component</h1>
 			<div class="jumbotron">
-				<hello-world></hello-world>
+				<!-- set who="value" attribute to get a HELLO VALUE <hello-world who="value"> -->
+				<hello-world who="amore mua"></hello-world>
 			</div>
+			<h1>This IS NOT a web-component.</h1>
 		</div>
 	</body>
 </html>

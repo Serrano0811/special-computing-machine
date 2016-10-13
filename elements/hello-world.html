@@ -1,9 +1,15 @@
 <link rel="import" href="../bower_components/polymer/polymer.html">
 
-<dom-module id="hello-world"> <!-- The noscript it's just saying that this element not use any javascript, so if your element its going to do use of any script you want to avoid this. -->
+<dom-module id="hello-world">
 	<template>
 		<h1>Hello <strong>{{who}}</strong></h1>
 	</template>
+	<style>
+		h1 strong {
+			color: red;
+			text-shadow: 1px 1px 3px;
+		}
+	</style>
 	<script>
 		Polymer({
 			is: 'hello-world',
